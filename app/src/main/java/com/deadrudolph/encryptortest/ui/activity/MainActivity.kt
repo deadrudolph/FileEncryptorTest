@@ -77,10 +77,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         initObservers()
         setContent {
-            CompositionLocalProvider(
-                LocalContentColor provides MaterialTheme.colorScheme.onBackground
-            ) {
-                EncryptorTestTheme(dynamicColor = false) {
+            EncryptorTestTheme(dynamicColor = false) {
+                CompositionLocalProvider(
+                    LocalContentColor provides MaterialTheme.colorScheme.onBackground
+                ) {
 
                     val isSaveDialogShownState = viewModel.saveFileDialogState.collectAsState()
 
