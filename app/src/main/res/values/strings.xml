@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EncryptorTest</string>
+
+    <string name="key_save_message">Save your private key. Only with this key you\'ll be able to decrypt the file</string>
+    <string name="file_save_message">Save your decrypted file</string>
+
+    <string name="button_encrypt">Encrypt</string>
+    <string name="button_decrypt">Decrypt</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_accept">Accept</string>
+</resources>
